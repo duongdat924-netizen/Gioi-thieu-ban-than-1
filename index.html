@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giới Thiệu Bản Thân - Dương Quốc Đạt</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f4f8;
+            color: #333;
+            margin: 0;
+            padding: 30px 15px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            display: flex;
+            gap: 25px;
+            align-items: flex-start;
+        }
+        .left-column {
+            width: 38%;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            border-right: 2px solid #333;
+            padding-right: 25px;
+        }
+        .image-box {
+            text-align: center;
+        }
+        /* Sửa ở đây: height: auto và bỏ object-fit: cover để không bị cắt ảnh */
+        .image-box img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+            display: block;
+        }
+        .image-box span {
+            display: block;
+            margin-top: 6px;
+            font-size: 13px;
+            color: #666;
+            font-style: italic;
+        }
+        .right-column {
+            width: 62%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .greeting h1 {
+            color: #007bff;
+            margin-top: 0;
+            margin-bottom: 8px;
+            font-size: 24px;
+        }
+        .greeting p {
+            font-style: italic;
+            color: #555;
+            margin-top: 0;
+            margin-bottom: 20px;
+        }
+        .info-list {
+            background-color: #f8fbff;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #007bff;
+        }
+        .info-list h2 {
+            margin-top: 0;
+            color: #0056b3;
+            font-size: 18px;
+            margin-bottom: 12px;
+        }
+        .info-list ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        .info-list li {
+            margin-bottom: 10px;
+            font-size: 15.5px;
+            line-height: 1.5;
+        }
+        .closing {
+            margin-top: 20px;
+            padding-top: 15px;
+            border-top: 1px dashed #ccc;
+            color: #444;
+            font-weight: 500;
+            font-size: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- CỘT TRÁI: Ảnh 1 ở trên, Ảnh 2 ở dưới -->
+        <div class="left-column">
+            <div class="image-box">
+                <img src="https://i.postimg.cc/C1ZQNhYP/images-(8).jpg" alt="Ảnh 1">
+                <span></span>
+            </div>
+
+            <div class="image-box">
+                <img src="https://i.postimg.cc/bNPmGHGB/images-(1).jpg" alt="">
+                <span></span>
+            </div>
+        </div>
+
+        <!-- CỘT PHẢI: Toàn bộ thông tin cá nhân -->
+        <div class="right-column">
+            <div>
+                <div class="greeting">
+                    <h1>Xin chào thầy cô và các bạn! 👋</h1>
+                    <p>"Rất vui được chào đón mọi người đến với trang giới thiệu bản thân của mình."</p>
+                </div>
+
+                <div class="info-list">
+                    <h2>📌 Thông Tin Cá Nhân</h2>
+                    <ul>
+                        <li><strong>Họ và tên:</strong> Dương Quốc Đạt</li>
+                        <li><strong>Ngày sinh:</strong> 14/09/2009</li>
+                        <li><strong>Cung hoàng đạo & Con giáp:</strong> Cung Xử Nữ ♍ — Tuổi Kỷ Sửu (con trâu) 🐃</li>
+                        <li><strong>Quê quán:</strong> Tây Ninh</li>
+                        <li><strong>Lớp:</strong> 12A4</li>
+                        <li><strong>Đơn vị học tập:</strong> Trung tâm GDNN - GDTX khu vực Tân Châu (Phân hiệu Tân Biên)</li>
+                        <li><strong>Tính cách:</strong> Chăm chỉ, thực tế,vui vẻ, ko vui vẻ</li>
+                        <li><strong>Sở thích:</strong> Nghe nhạc thư giãn và chơi game giải trí</li>
+                        <li><strong>Mục tiêu trước mắt:</strong> Ôn tập thật tốt để đậu kỳ thi Tốt nghiệp THPT</li>
+                        <li><strong>Định hướng nghề nghiệp:</strong> Đang trong quá trình tìm hiểu ngành nghề phù hợp nhất với bản thân</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="closing">
+                Cảm ơn thầy cô và các bạn đã dành thời gian theo dõi phần giới thiệu của mình. Chúc mọi người luôn vui vẻ và gặt hái nhiều thành công! ❤️
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
